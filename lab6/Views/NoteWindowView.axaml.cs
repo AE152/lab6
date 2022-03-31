@@ -1,13 +1,12 @@
+using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
-using lab6.Models;
-using System.Collections.Generic;
 
 namespace lab6.Views
 {
-    public partial class NoteListControlView : UserControl
+    public partial class NoteWindowView : UserControl
     {
-        public NoteListControlView()
+        public NoteWindowView()
         {
             InitializeComponent();
         }
